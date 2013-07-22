@@ -1,5 +1,5 @@
 /*
-	Sequence Storage Engine Examples
+	MariaDB Experiments & Examples Examples
 	Copyright Federico Razzoli  2013
 	
 	This file is part of MEX (MariaDB EXamples & EXperiments).
