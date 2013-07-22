@@ -26,7 +26,7 @@
 
 
 /*
- *	SEQUENCE.001 - Handling errors in CONTINUE HANDLERs
+ *	ERR_HANDLERS.001 - Handling errors in CONTINUE HANDLERs
  *	===================================================
  */
 
@@ -69,7 +69,7 @@ END;
 
 
 /*
- *	SEQUENCE.002 - Errors in EXIT HANDLERs
+ *	ERR_HANDLERS.002 - Errors in EXIT HANDLERs
  *	======================================
  */
 
@@ -110,7 +110,7 @@ END;
 
 
 /*
- *	SEQUENCE.003 - EXIT HANDLERs in different BEGIN..ENDs
+ *	ERR_HANDLERS.003 - EXIT HANDLERs in different BEGIN..ENDs
  *	=====================================================
  */
 
@@ -147,7 +147,7 @@ END;
 
 
 /*
- *	SEQUENCE.004 - No endless loops
+ *	ERR_HANDLERS.004 - No endless loops
  *	===============================
  */
 
@@ -174,7 +174,7 @@ END;
 
 
 /*
- *	SEQUENCE.005 - Unhandled CONDITIONs
+ *	ERR_HANDLERS.005 - Unhandled CONDITIONs
  *	===================================
  */
 
@@ -192,7 +192,7 @@ END;
 
 
 /*
- *	SEQUENCE.006 - Duplicate CONDITIONs
+ *	ERR_HANDLERS.006 - Duplicate CONDITIONs
  *	===================================
  */
 
@@ -207,6 +207,4 @@ BEGIN
 	DECLARE `cond2` CONDITION FOR 1326;
 	SELECT 1;
 END;
-
-
 
