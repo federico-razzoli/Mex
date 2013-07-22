@@ -1,4 +1,4 @@
-<h1>MariaDB Experiments &amp; Examples Examples</h1>
+<h1>MariaDB Experiments &amp; Examples</h1>
 <h2>Overview</h2>
 <p>
 	MariaDB Experiments & Examples (MEX) contains Examples & Experiments
